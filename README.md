@@ -1,12 +1,10 @@
-# Learning template
+# Learning Vite
 
 Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
-(To create a convenience script repo, use this template instead: https://github.com/hchiam/convenience)
+https://vitejs.dev
 
-(To create a website fast, use a code generator like [`create-next-app`](https://github.com/hchiam/learning-nextjs), [`sapper`](https://github.com/hchiam/learning-sapper), a [svelte template](https://github.com/sveltejs/template), or [`yo`](https://yeoman.io/generators) )
-
-<!-- Add reference link(s) here -->
+https://github.com/vitejs/vite
 
 ## From scratch
 
