@@ -11,13 +11,13 @@ https://github.com/vitejs/vite
 Using [`yarn`](https://github.com/hchiam/learning-yarn):
 
 ```bash
-yarn add 
+yarn add
 ```
 
 Or with `npm`:
 
 ```bash
-npm install 
+npm install
 ```
 
 And then:
