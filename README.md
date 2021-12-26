@@ -2,7 +2,7 @@
 
 Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
-Speed up server start and development by leveraging modern ES modules in the browser for faster development time. Vite transforms and serves source code only on demand. You still will want to bundle for production or final testing, but not during development where files are constantly being updated. Vite can translate `import { someMethod } from 'my-dep'` for the browser, so you don't have to think about it. Out of the box, you can directly import `.ts` files (and [other file types too](https://vitejs.dev/guide/features.html#json)), and `@import` CSS files or `import classes from './example.module.css'`.
+Speed up server start and development by leveraging modern ES modules in the browser for faster development time. Vite transforms and serves source code only on demand. You still will want to bundle for production or final testing, but not during development where files are constantly being updated. Vite can translate `import { someMethod } from 'my-dep'` for the browser, so you don't have to think about it. Out of the box, you can directly import `.ts` files (and [other file types too](https://vitejs.dev/guide/features.html#json)), and `@import` CSS files or `import classes from './example.module.css'`. Vite comes with things like code-splitting and load optimizations on by default.
 
 https://vitejs.dev
 
