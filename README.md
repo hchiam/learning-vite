@@ -39,11 +39,11 @@ npm init vite@latest
 Using [`yarn`](https://github.com/hchiam/learning-yarn): (triple-click to select all)
 
 ```bash
-git clone https://github.com/hchiam/learning-template.git && cd learning-template && yarn; # and then ...
+git clone https://github.com/hchiam/learning-vite.git && cd learning-vite/vite-project-example && yarn; # and then ...
 ```
 
 Or with `npm`: (triple-click to select all)
 
 ```bash
-git clone https://github.com/hchiam/learning-template.git && cd learning-template && npm install; # and then ...
+git clone https://github.com/hchiam/learning-vite.git && cd learning-vite/vite-project-example && npm install; # and then ...
 ```
