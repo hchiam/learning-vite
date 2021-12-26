@@ -46,6 +46,10 @@ Then `cd` into the project folder and run `yarn; yarn dev`
 }
 ```
 
+## Starting with a minimal repo example
+
+https://github.com/hchiam/vite-project-example-minimal
+
 ## Starting by testing out this repo <!-- Replace "template"s and "# and then ..."s in this section -->
 
 Using [`yarn`](https://github.com/hchiam/learning-yarn): (triple-click to select all)
