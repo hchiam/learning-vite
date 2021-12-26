@@ -50,21 +50,23 @@ Then `cd` into the project folder and run `yarn; yarn dev`
 
 https://github.com/hchiam/vite-project-example-minimal
 
-## Starting by testing out this repo <!-- Replace "template"s and "# and then ..."s in this section -->
+## Starting by testing out this repo
 
 Using [`yarn`](https://github.com/hchiam/learning-yarn): (triple-click to select all)
 
 ```bash
-git clone https://github.com/hchiam/learning-vite.git && cd learning-vite/vite-project-example && yarn; # and then ...
+git clone https://github.com/hchiam/learning-vite.git && cd learning-vite/vite-project-example && yarn && yarn dev;
 ```
 
 Or with `npm`: (triple-click to select all)
 
 ```bash
-git clone https://github.com/hchiam/learning-vite.git && cd learning-vite/vite-project-example && npm install; # and then ...
+git clone https://github.com/hchiam/learning-vite.git && cd learning-vite/vite-project-example && npm install && npm run dev;
 ```
 
-Then `cd` into the project folder and run `yarn; yarn dev`
+Then open http://localhost:3000
+
+## Commands, explained
 
 ```json
 {
