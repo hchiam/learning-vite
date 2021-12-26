@@ -34,6 +34,8 @@ npm init vite@latest
 # and follow prompts
 ```
 
+Then `cd` into the project folder and run `yarn; yarn dev`
+
 ## Starting by testing out this repo <!-- Replace "template"s and "# and then ..."s in this section -->
 
 Using [`yarn`](https://github.com/hchiam/learning-yarn): (triple-click to select all)
@@ -47,3 +49,5 @@ Or with `npm`: (triple-click to select all)
 ```bash
 git clone https://github.com/hchiam/learning-vite.git && cd learning-vite/vite-project-example && npm install; # and then ...
 ```
+
+Then `cd` into the project folder and run `yarn; yarn dev`
