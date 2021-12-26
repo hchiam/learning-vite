@@ -2,28 +2,36 @@
 
 Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
+Speed up server start and development by leveraging modern ES modules in the browser for faster development time. Vite transforms and serves source code only on demand. You still will want to bundle for production or final testing, but not during development where files are constantly being updated.
+
 https://vitejs.dev
 
+https://vitejs.dev/guide
+
 https://github.com/vitejs/vite
+
+## Online
+
+https://vite.new/
+
+https://vite.new/react-ts
+
+`https://vite.new/{template}` <-- see [template link list](https://vitejs.dev/guide/#trying-vite-online)
 
 ## From scratch
 
 Using [`yarn`](https://github.com/hchiam/learning-yarn):
 
 ```bash
-yarn add
+yarn create vite
+# and follow prompts
 ```
 
 Or with `npm`:
 
 ```bash
-npm install
-```
-
-And then:
-
-```bash
-
+npm init vite@latest
+# and follow prompts
 ```
 
 ## Starting by testing out this repo <!-- Replace "template"s and "# and then ..."s in this section -->
