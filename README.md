@@ -36,6 +36,16 @@ npm init vite@latest
 
 Then `cd` into the project folder and run `yarn; yarn dev`
 
+```json
+{
+  "scripts": {
+    "dev": "vite", // start dev server, aliases: `vite dev`, `vite serve`
+    "build": "vite build", // build for production
+    "preview": "vite preview" // locally preview production build
+  }
+}
+```
+
 ## Starting by testing out this repo <!-- Replace "template"s and "# and then ..."s in this section -->
 
 Using [`yarn`](https://github.com/hchiam/learning-yarn): (triple-click to select all)
@@ -51,3 +61,13 @@ git clone https://github.com/hchiam/learning-vite.git && cd learning-vite/vite-p
 ```
 
 Then `cd` into the project folder and run `yarn; yarn dev`
+
+```json
+{
+  "scripts": {
+    "dev": "vite", // start dev server, aliases: `vite dev`, `vite serve`
+    "build": "vite build", // build for production
+    "preview": "vite preview" // locally preview production build
+  }
+}
+```
