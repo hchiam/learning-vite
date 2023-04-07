@@ -16,6 +16,18 @@ https://vitejs.dev/guide
 
 https://github.com/vitejs/vite
 
+## Note to self - if js file doesn't seem to get added to /dist
+
+```html
+<script src="index.js"></script>
+```
+
+needs to be
+
+```html
+<script type="module" src="index.js"></script>
+```
+
 ## Online
 
 https://vite.new/
