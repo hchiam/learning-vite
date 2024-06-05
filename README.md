@@ -2,6 +2,8 @@
 
 Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
+To install vite _globally_: `npm install -g vite`
+
 Quick tip/reminder: already installed `vite`? If you have an `index.html` file in the current directory, just run this:
 
 ```bash
