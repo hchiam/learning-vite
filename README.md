@@ -12,11 +12,11 @@ vite
 
 Speed up server start and development by leveraging modern ES modules in the browser for faster development time. Vite transforms and serves source code only on demand. You still will want to bundle for production or final testing, but not during development where files are constantly being updated. Vite can translate `import { someMethod } from 'my-dep'` for the browser, so you don't have to think about it. Out of the box, you can directly import `.ts` files (and [other file types too](https://vitejs.dev/guide/features.html#json)), and `@import` CSS files or `import classes from './example.module.css'`. Vite comes with things like code-splitting and load optimizations on by default.
 
-https://vitejs.dev
+<https://vitejs.dev>
 
-https://vitejs.dev/guide
+<https://vitejs.dev/guide>
 
-https://github.com/vitejs/vite
+<https://github.com/vitejs/vite>
 
 ## Note to self - if js file doesn't seem to get added to /dist
 
@@ -32,9 +32,9 @@ needs to be
 
 ## Online
 
-https://vite.new/
+<https://vite.new/>
 
-https://vite.new/react-ts
+<https://vite.new/react-ts>
 
 `https://vite.new/{template}` <-- see [template link list](https://vitejs.dev/guide/#trying-vite-online)
 
@@ -68,7 +68,7 @@ Then `cd` into the project folder and run `yarn; yarn dev`
 
 ## Starting with a minimal repo example
 
-https://github.com/hchiam/vite-project-example-minimal
+<https://github.com/hchiam/vite-project-example-minimal>
 
 ## Starting by testing out this repo
 
@@ -84,7 +84,7 @@ Or with `npm`: (triple-click to select all)
 git clone https://github.com/hchiam/learning-vite.git && cd learning-vite/vite-project-example && npm install && npm run dev;
 ```
 
-Then open http://localhost:3000
+Then open <http://localhost:3000>
 
 ## Commands, explained
 
@@ -97,3 +97,18 @@ Then open http://localhost:3000
   }
 }
 ```
+
+## to `vite` something other than `index.html`
+
+vite.config.js:
+
+```js
+import { defineConfig } from "vite";
+export default defineConfig({
+  server: {
+    open: "demo.html",
+  },
+});
+```
+
+- this will open a new tab/window to <http://localhost:5173/demo.html> with `vite --config vite.config.js` or just `vite`
